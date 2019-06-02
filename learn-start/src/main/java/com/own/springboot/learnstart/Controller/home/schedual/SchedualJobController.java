@@ -16,6 +16,7 @@ public class SchedualJobController {
 
     /**
      * 串型执行JOB
+     * 测试
      */
     @Scheduled(cron = "0 0/1 * * * ?")
     public void taskOne(){
