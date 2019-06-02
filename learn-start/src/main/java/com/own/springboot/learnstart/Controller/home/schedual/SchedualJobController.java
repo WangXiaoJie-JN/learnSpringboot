@@ -14,6 +14,9 @@ public class SchedualJobController {
 
     Logger logger = LoggerFactory.getLogger(SchedualJobController.class);
 
+    /**
+     * 串型执行JOB
+     */
     @Scheduled(cron = "0 0/1 * * * ?")
     public void taskOne(){
         logger.info("now time="+new Date());
