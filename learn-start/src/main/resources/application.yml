@@ -1,0 +1,21 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /own
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    cache: false
+    servlet:
+      content-type: text/html
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        boot:
+#          autoconfigure: INFO

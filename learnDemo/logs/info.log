@@ -1,0 +1,86 @@
+[2019-06-02 18:10:55][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:50] Starting LearnStartApplication on DESKTOP-3T055Q6 with PID 13596 (D:\learnAll\learn-start\target\classes started by admin in D:\learnAll\learnDemo)
+[2019-06-02 18:10:55][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:679] The following profiles are active: dev
+[2019-06-02 18:10:55][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2019-06-02 18:10:55][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2019-06-02 18:10:57][restartedMain][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-02 18:10:57][restartedMain][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-02 18:10:57][restartedMain][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 1657 ms
+[2019-06-02 18:10:58][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-06-02 18:10:58][restartedMain][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-02 18:10:58][restartedMain][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'taskScheduler'
+[2019-06-02 18:10:58][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2019-06-02 18:10:58][restartedMain][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-02 18:10:58][restartedMain][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-02 18:10:58][restartedMain][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 8083 (http) with context path '/own'
+[2019-06-02 18:10:58][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:59] Started LearnStartApplication in 3.438 seconds (JVM running for 7.895)
+[2019-06-02 18:11:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:11:00 CST 2019
+[2019-06-02 18:11:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:11:30 CST 2019
+[2019-06-02 18:12:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:12:00 CST 2019
+[2019-06-02 18:12:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:12:30 CST 2019
+[2019-06-02 18:13:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:13:00 CST 2019
+[2019-06-02 18:13:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:13:30 CST 2019
+[2019-06-02 18:14:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:14:00 CST 2019
+[2019-06-02 18:14:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:14:30 CST 2019
+[2019-06-02 18:15:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:15:00 CST 2019
+[2019-06-02 18:15:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:15:30 CST 2019
+[2019-06-02 18:16:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:16:00 CST 2019
+[2019-06-02 18:16:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:16:30 CST 2019
+[2019-06-02 18:17:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:17:00 CST 2019
+[2019-06-02 18:17:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:17:30 CST 2019
+[2019-06-02 18:18:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:18:00 CST 2019
+[2019-06-02 18:18:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:18:30 CST 2019
+[2019-06-02 18:19:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:19:00 CST 2019
+[2019-06-02 18:19:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:19:30 CST 2019
+[2019-06-02 18:20:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:20:00 CST 2019
+[2019-06-02 18:20:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:20:30 CST 2019
+[2019-06-02 18:21:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:21:00 CST 2019
+[2019-06-02 18:21:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:21:30 CST 2019
+[2019-06-02 18:22:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:22:00 CST 2019
+[2019-06-02 18:22:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:22:30 CST 2019
+[2019-06-02 18:23:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:23:00 CST 2019
+[2019-06-02 18:23:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:23:30 CST 2019
+[2019-06-02 18:24:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:24:00 CST 2019
+[2019-06-02 18:24:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:24:30 CST 2019
+[2019-06-02 18:25:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:25:00 CST 2019
+[2019-06-02 18:25:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:25:30 CST 2019
+[2019-06-02 18:26:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:26:00 CST 2019
+[2019-06-02 18:26:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:26:30 CST 2019
+[2019-06-02 18:27:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:27:00 CST 2019
+[2019-06-02 18:27:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:27:30 CST 2019
+[2019-06-02 18:28:00][scheduling-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:28:00 CST 2019
+[2019-06-02 18:28:30][scheduling-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:28:30 CST 2019
+[2019-06-02 18:29:00][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:50] Starting LearnStartApplication on DESKTOP-3T055Q6 with PID 10392 (D:\learnAll\learn-start\target\classes started by admin in D:\learnAll\learnDemo)
+[2019-06-02 18:29:00][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:679] The following profiles are active: dev
+[2019-06-02 18:29:00][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2019-06-02 18:29:00][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2019-06-02 18:29:02][restartedMain][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-02 18:29:02][restartedMain][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-02 18:29:02][restartedMain][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 1688 ms
+[2019-06-02 18:29:03][restartedMain][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-02 18:29:03][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2019-06-02 18:29:03][restartedMain][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-02 18:29:03][restartedMain][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-02 18:29:03][restartedMain][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 8083 (http) with context path '/own'
+[2019-06-02 18:29:03][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:59] Started LearnStartApplication in 3.508 seconds (JVM running for 7.93)
+[2019-06-02 18:29:30][pool-2-thread-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:29:30 CST 2019
+[2019-06-02 18:30:00][pool-2-thread-2][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:30:00 CST 2019
+[2019-06-02 18:30:30][pool-2-thread-1][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:30:30 CST 2019
+[2019-06-02 18:31:00][pool-2-thread-3][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:31:00 CST 2019
+[2019-06-02 18:31:31][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:50] Starting LearnStartApplication on DESKTOP-3T055Q6 with PID 2768 (D:\learnAll\learn-start\target\classes started by admin in D:\learnAll\learnDemo)
+[2019-06-02 18:31:31][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:679] The following profiles are active: dev
+[2019-06-02 18:31:31][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2019-06-02 18:31:31][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2019-06-02 18:31:33][restartedMain][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-02 18:31:33][restartedMain][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-02 18:31:33][restartedMain][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 1707 ms
+[2019-06-02 18:31:33][restartedMain][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-02 18:31:33][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57] LiveReload server is running on port 35729
+[2019-06-02 18:31:34][restartedMain][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-02 18:31:34][restartedMain][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-02 18:31:34][restartedMain][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 8083 (http) with context path '/own'
+[2019-06-02 18:31:34][restartedMain][INFO][com.own.springboot.learnstart.LearnStartApplication:59] Started LearnStartApplication in 3.457 seconds (JVM running for 7.943)
+[2019-06-02 18:32:00][pool-2-thread-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:32:00 CST 2019
+[2019-06-02 18:32:00][pool-2-thread-2][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:29] --------3-----------now time=Sun Jun 02 18:32:00 CST 2019
+[2019-06-02 18:32:30][pool-2-thread-3][ERROR][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:24] ------------------now is Sun Jun 02 18:32:30 CST 2019
+[2019-06-02 18:33:00][pool-2-thread-2][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:29] --------3-----------now time=Sun Jun 02 18:33:00 CST 2019
+[2019-06-02 18:33:00][pool-2-thread-1][INFO][com.own.springboot.learnstart.Controller.home.schedual.SchedualJobController:19] now time=Sun Jun 02 18:33:00 CST 2019

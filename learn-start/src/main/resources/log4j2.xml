@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration status="TRACE" monitorinterval="30">
+    <Properties>
+        <Property name="logPath">${sys:user.home}/demoLogs</Property>
+<!--        <Property name="rollLogPath">${sys:user.home}/demoLogs/rollingLogs</Property>-->
+        <Property name="rollLogPath">rollLogs/</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="[%d][%t][%p][%c:%L] %m%n"/>
+            <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY"/>
+        </Console>
+        <RollingFile name="RollingFileInfo" fileName="logs/info.log" filePattern="${rollLogPath}/info-%d{yyyy-MM-dd}.log">
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}][%t][%p][%c:%L] %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="2"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingFile>
+        <RollingFile name="errorRolling" fileName="logs/error.log" filePattern="${rollLogPath}/error-%d{yyyy-MM-dd}.log">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}][%t][%p][%c:%L] %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="2"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+
+<!--        <Logger name="com.own.springboot.learnstart.Controller" level="error">-->
+<!--            <AppenderRef ref="errorRolling"></AppenderRef>-->
+<!--        </Logger>-->
+       <root level="INFO">
+            <appender-ref ref="Console" />
+            <appender-ref ref="RollingFileInfo" />
+        </root>
+    </Loggers>
+</Configuration>
