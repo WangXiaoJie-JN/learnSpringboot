@@ -31,7 +31,7 @@
     </Appenders>
     <Loggers>
 
-<!--        <Logger name="com.own.springboot.learnstart.Controller" level="error">-->
+<!--        <Logger name="com.own.springboot.normaltroller" level="error">-->
 <!--            <AppenderRef ref="errorRolling"></AppenderRef>-->
 <!--        </Logger>-->
        <root level="INFO">

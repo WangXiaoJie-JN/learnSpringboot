@@ -33,6 +33,12 @@
 
         </dependency>
 
+        <!--2.0springboot加入Quartz-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
@@ -84,6 +90,22 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional> <!-- 表示依赖不会传递 -->
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -92,7 +114,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
 
                 <configuration>
-                    <mainClass>com.own.springboot.learnstart.LearnStartApplication</mainClass>
+                    <mainClass>com.own.springboo.LearnStartApplication</mainClass>
                     <fork>true</fork>
                 </configuration>
                 <executions>

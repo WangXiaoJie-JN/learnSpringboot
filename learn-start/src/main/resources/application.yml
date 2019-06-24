@@ -1,7 +1,7 @@
 server:
   port: 8083
   servlet:
-    context-path: /own
+    context-path: /
 spring:
   profiles:
     active: dev
@@ -19,3 +19,8 @@ spring:
 #      springframework:
 #        boot:
 #          autoconfigure: INFO
+mybatis:
+  check-config-location: true
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mappers/**/*Mapper.xml
+  type-aliases-package: com.own.springboot.biz

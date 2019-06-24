@@ -1,0 +1,37 @@
+#Async多线程创建线程池使用 ThreadPoolTaskExecutor
+thread:
+  pool:
+    corePoolSize: 10
+    maxPoolSize: 200
+    queueCapicity: 10
+#druid
+spring:
+  datasource:
+    #url: jdbc:oracle:thin:@127.0.0.1:1521/orcl
+    url: jdbc:mysql://localhost:3306/specificdb?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true&amp;useSSL=true
+    username: localuser
+    password: localuser
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 10
+      validatin-query: SELECT 'x'
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 20
+      use-global-data-source-stat: true
+      stat:
+        enabled: true
+        db-type: oracle
+        log-slow-sql: true
+        slow-sql-millis: 1000
+        merge-sql: true
+      slf4j:
+        enabled: true
+      stat-view-servlet:
+        enabled: true
+        login-username: druid
+        login-password: druid
