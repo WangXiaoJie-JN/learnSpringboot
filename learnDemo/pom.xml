@@ -8,12 +8,6 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/>
     </parent>
-    <!--
-    <modules>
-        <module>learn-start</module>
-    </modules>
-    -->
-
     <groupId>com.own.springboot</groupId>
     <artifactId>learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -33,6 +27,9 @@
             <artifactId>spring-context-support</artifactId>
             <version>5.1.5.RELEASE</version>
         </dependency>
+        <!--
+
+        -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -43,20 +40,14 @@
             <artifactId>mybatis-spring</artifactId>
             <version>${mybatis-spring.version}</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
     </dependencies>
+
 </dependencyManagement>
- <dependencies>
-     <dependency>
-         <groupId>com.own.springboot</groupId>
-         <artifactId>learn-start</artifactId>
-         <version>${project.version}</version>
-     </dependency>
-     <dependency>
-         <groupId>com.own.springboot</groupId>
-         <artifactId>learn-biz</artifactId>
-         <version>1.0-SNAPSHOT</version>
-     </dependency>
- </dependencies>
 
     <build>
         <plugins>

@@ -1,2 +1,2 @@
-[2019-24-02 17:24:58][XNIO-1 task-1][ERROR][com.own.springboot.learnstart.Controller.home.homepageController:29] this is info message1
-[2019-24-02 17:24:58][XNIO-1 task-1][ERROR][com.own.springboot.learnstart.Controller.home.homepageController:30] this is info message2
+[2019-24-02 17:24:58][XNIO-1 -1][ERROR][homepageController:29] this is info message1
+[2019-24-02 17:24:58][XNIO-1 task-1][ERROR][homepageController:30] this is info message2

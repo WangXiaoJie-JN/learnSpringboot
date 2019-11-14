@@ -1,0 +1,646 @@
+[2019-08-04 09:57:04][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.thread.threadPool.FourThreadPool], using SpringBootContextLoader
+[2019-08-04 09:57:05][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.thread.threadPool.FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 09:57:05][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 09:57:05][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1bbae752, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@460b6d54, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5cf87cfd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@76075d65, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a4ba480, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27b71f50, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@383790cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74971ed9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@131fcb6f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ccd1bc3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@878537d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4455f57d]
+[2019-08-04 09:57:07][main][INFO][com.own.springboot.thread.threadPool.FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 9876 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 09:57:07][main][INFO][com.own.springboot.thread.threadPool.FourThreadPool:679] The following profiles are active: dev
+[2019-08-04 09:57:10][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration$$EnhancerBySpringCGLIB$$c6470eeb: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:10][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:10][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration$$EnhancerBySpringCGLIB$$c6470eeb: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:10][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:11][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 09:57:12][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 09:57:14][main][INFO][org.activiti.spring.boot.AbstractProcessEngineConfiguration:88] No process definitions were found for autodeployment
+[2019-08-04 09:57:17][main][INFO][org.activiti.engine.compatibility.DefaultActiviti5CompatibilityHandlerFactory:38] Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+[2019-08-04 09:57:17][main][INFO][org.activiti.engine.impl.ProcessEngineImpl:87] ProcessEngine default created
+[2019-08-04 09:57:17][main][INFO][org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor:169] Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2019-08-04 09:57:17][Thread-5][INFO][org.activiti.engine.impl.asyncexecutor.ResetExpiredJobsRunnable:51] {} starting to reset expired jobs
+[2019-08-04 09:57:17][Thread-3][INFO][org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable:45] {} starting to acquire async jobs due
+[2019-08-04 09:57:17][Thread-4][INFO][org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable:49] {} starting to acquire async jobs due
+[2019-08-04 09:57:17][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 09:57:18][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 09:57:18][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 09:57:18][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 09:57:19][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration$$EnhancerBySpringCGLIB$$c6470eeb: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:20][main][INFO][org.springframework.core.annotation.AnnotationUtils:1973] Failed to introspect annotations on class org.activiti.spring.boot.SecurityAutoConfiguration$$EnhancerBySpringCGLIB$$c6470eeb: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:20][main][WARN][org.springframework.web.context.support.GenericWebApplicationContext:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+[2019-08-04 09:57:20][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 09:57:20][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 09:57:20][main][INFO][org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor:208] Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+[2019-08-04 09:57:20][activiti-acquire-timer-jobs][INFO][org.activiti.engine.impl.asyncexecutor.AcquireTimerJobsRunnable:115] {} stopped async job due acquisition
+[2019-08-04 09:57:20][activiti-reset-expired-jobs][INFO][org.activiti.engine.impl.asyncexecutor.ResetExpiredJobsRunnable:99] {} stopped resetting expired jobs
+[2019-08-04 09:57:20][activiti-acquire-async-jobs][INFO][org.activiti.engine.impl.asyncexecutor.AcquireAsyncJobsDueRunnable:115] {} stopped async job due acquisition
+[2019-08-04 09:57:20][main][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-04 09:57:20][main][INFO][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2019-08-04 09:57:20][main][ERROR][org.springframework.boot.SpringApplication:858] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) [spring-boot-test-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+Caused by: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(AnnotationParser.java:724) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseArray(AnnotationParser.java:531) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(AnnotationParser.java:355) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:286) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72) ~[?:1.8.0_131]
+	at java.lang.Class.createAnnotationData(Class.java:3521) ~[?:1.8.0_131]
+	at java.lang.Class.annotationData(Class.java:3510) ~[?:1.8.0_131]
+	at java.lang.Class.createAnnotationData(Class.java:3526) ~[?:1.8.0_131]
+	at java.lang.Class.annotationData(Class.java:3510) ~[?:1.8.0_131]
+	at java.lang.Class.getAnnotation(Class.java:3415) ~[?:1.8.0_131]
+	at java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:258) ~[?:1.8.0_131]
+	at java.lang.Class.isAnnotationPresent(Class.java:3425) ~[?:1.8.0_131]
+	at org.springframework.core.annotation.AnnotatedElementUtils.hasAnnotation(AnnotatedElementUtils.java:599) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.isHandler(RequestMappingHandlerMapping.java:205) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:251) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 39 more
+[2019-08-04 09:57:20][main][ERROR][org.springframework.test.context.TestContextManager:250] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1bbae752] to prepare test instance [com.own.springboot.thread.threadPool.FourThreadPool@402c9a60]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 24 more
+Caused by: java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(AnnotationParser.java:724) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseArray(AnnotationParser.java:531) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(AnnotationParser.java:355) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:286) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120) ~[?:1.8.0_131]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72) ~[?:1.8.0_131]
+	at java.lang.Class.createAnnotationData(Class.java:3521) ~[?:1.8.0_131]
+	at java.lang.Class.annotationData(Class.java:3510) ~[?:1.8.0_131]
+	at java.lang.Class.createAnnotationData(Class.java:3526) ~[?:1.8.0_131]
+	at java.lang.Class.annotationData(Class.java:3510) ~[?:1.8.0_131]
+	at java.lang.Class.getAnnotation(Class.java:3415) ~[?:1.8.0_131]
+	at java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:258) ~[?:1.8.0_131]
+	at java.lang.Class.isAnnotationPresent(Class.java:3425) ~[?:1.8.0_131]
+	at org.springframework.core.annotation.AnnotatedElementUtils.hasAnnotation(AnnotatedElementUtils.java:599) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.isHandler(RequestMappingHandlerMapping.java:205) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:251) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 24 more
+[2019-08-04 23:46:24][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.AnnotinationTest], using SpringBootContextLoader
+[2019-08-04 23:46:24][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:46:25][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:46:25][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6fca2a8f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31fc71ab, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71391b3f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cfbeac4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12db3386, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4078695f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79a1728c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a7f0ab6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@41f35f7c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42c2f48c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3005db4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@425d5d46]
+[2019-08-04 23:46:27][main][INFO][com.own.springboot.AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 11732 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:46:27][main][INFO][com.own.springboot.AnnotinationTest:679] The following profiles are active: dev
+[2019-08-04 23:46:37][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-08-04 23:46:37][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-08-04 23:46:37][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 10267 ms
+[2019-08-04 23:46:38][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:46:39][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:46:40][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:46:40][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:46:40][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created1827728641971324564diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:46:41][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:46:41][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:46:43][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:46:45][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-04 23:46:45][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-04 23:46:45][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-04 23:46:45][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-04 23:46:45][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-04 23:46:45][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-04 23:46:45][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-04 23:46:45][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@206bd7a0
+[2019-08-04 23:46:48][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-04 23:46:48][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-04 23:46:49][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-08-04 23:46:49][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-08-04 23:46:50][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 49697 (http) with context path ''
+[2019-08-04 23:46:50][main][INFO][com.own.springboot.AnnotinationTest:59] Started AnnotinationTest in 24.327 seconds (JVM running for 31.785)
+[2019-08-04 23:46:51][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:46:51][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-04 23:46:51][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-04 23:46:51][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:46:51][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-04 23:46:51][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:46:51][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 23:46:51][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-04 23:48:07][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-04 23:48:07][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:48:07][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-04 23:48:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-04 23:48:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:48:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78c1a023, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70abf9b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@476ec9d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@325bb9a6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d12b024, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72fe8a4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43effd89, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c16fadb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@248deced, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2227a6c1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e9804b9]
+[2019-08-04 23:48:10][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 3100 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:48:10][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-04 23:48:15][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:48:16][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:48:18][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:48:20][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:48:20][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created1849442581643316056diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:48:20][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:48:20][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:48:24][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:48:25][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-04 23:48:25][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-04 23:48:25][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-04 23:48:25][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-04 23:48:25][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-04 23:48:25][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-04 23:48:25][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-04 23:48:25][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4f2d8175
+[2019-08-04 23:48:25][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-04 23:48:25][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-04 23:48:25][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 16.927 seconds (JVM running for 25.413)
+[2019-08-04 23:48:26][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:48:26][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-04 23:48:26][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-04 23:48:26][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:48:26][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-04 23:48:26][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:48:26][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 23:48:26][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-04 23:49:35][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-04 23:49:35][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:49:35][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-04 23:49:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-04 23:49:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:49:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@64a8c844, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f6db3fb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@52de51b6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18c5069b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a0d172f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68ad99fe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@485e36bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@781f10f2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2a79d4b1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2e9fda69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@17cdf2d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1755e85b]
+[2019-08-04 23:49:37][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 12444 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:49:37][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-04 23:49:41][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:49:41][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:49:42][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:49:44][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:49:44][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created5489172887960470093diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:49:44][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:49:44][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:49:46][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:50:10][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-04 23:50:10][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:50:10][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-04 23:50:11][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-04 23:50:11][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:50:11][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b7906b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a1dd365, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@395b56bb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@256f8274, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68044f4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@52d239ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@315f43d5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68fa0ba8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c5945a7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2f05be7f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@640f11a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c10f1c3]
+[2019-08-04 23:50:13][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 1408 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:50:13][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-04 23:50:18][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:50:19][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:50:20][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:50:22][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:50:22][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created8424829180177888937diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:50:22][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:50:22][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:50:24][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:50:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-04 23:50:26][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-04 23:50:26][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-04 23:50:26][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-04 23:50:26][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-04 23:50:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-04 23:50:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-04 23:50:26][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5122e4bf
+[2019-08-04 23:50:26][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-04 23:50:26][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-04 23:50:26][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 14.776 seconds (JVM running for 22.233)
+[2019-08-04 23:50:27][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:50:27][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-04 23:50:27][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-04 23:50:27][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:50:27][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-04 23:50:27][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:50:27][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 23:50:27][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-04 23:53:15][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-04 23:53:15][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:53:15][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-04 23:53:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-04 23:53:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:53:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@37fdfb05, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e39850, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1603dc2f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@398474a2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61799544, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78c1a023, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70abf9b0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@476ec9d0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@325bb9a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d12b024, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@72fe8a4f]
+[2019-08-04 23:53:18][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 12480 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:53:18][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-04 23:53:23][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:53:24][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:53:25][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:53:27][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:53:27][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created7478917439110653946diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:53:27][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:53:27][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:53:30][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:53:31][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-04 23:53:31][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-04 23:53:31][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-04 23:53:31][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-04 23:53:31][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-04 23:53:31][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-04 23:53:31][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-04 23:53:31][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4ea43d4d
+[2019-08-04 23:53:32][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-04 23:53:32][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-04 23:53:32][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 15.726 seconds (JVM running for 23.615)
+[2019-08-04 23:53:32][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:53:32][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-04 23:53:32][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-04 23:53:32][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:53:32][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-04 23:53:32][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:53:32][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 23:53:33][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-04 23:54:35][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-04 23:54:35][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-04 23:54:35][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-04 23:54:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-04 23:54:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-04 23:54:36][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e39850, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1603dc2f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@398474a2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61799544, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78c1a023, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70abf9b0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a10b263, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@476ec9d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@325bb9a6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d12b024, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72fe8a4f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43effd89]
+[2019-08-04 23:54:38][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 12908 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-04 23:54:38][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-04 23:54:43][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-04 23:54:44][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-04 23:54:45][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-04 23:54:47][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-04 23:54:47][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created464853508182915869diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-04 23:54:47][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-04 23:54:47][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:54:50][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-04 23:54:51][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-04 23:54:51][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-04 23:54:51][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-04 23:54:51][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-04 23:54:51][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-04 23:54:51][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-04 23:54:51][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-04 23:54:51][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@25110bb9
+[2019-08-04 23:54:51][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-04 23:54:51][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-04 23:54:52][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 15.071 seconds (JVM running for 23.147)
+[2019-08-04 23:54:52][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:54:52][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-04 23:54:52][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-04 23:54:52][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-04 23:54:52][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-04 23:54:52][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-04 23:54:52][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-04 23:54:52][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-05 00:03:01][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-05 00:03:01][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-05 00:03:01][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-05 00:03:01][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-05 00:03:02][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-05 00:03:02][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78c1a023, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70abf9b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@476ec9d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@325bb9a6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d12b024, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72fe8a4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43effd89, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c16fadb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@248deced, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2227a6c1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e9804b9]
+[2019-08-05 00:03:03][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 6908 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-05 00:03:03][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-05 00:03:08][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-05 00:03:10][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-05 00:03:11][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-05 00:03:13][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-05 00:03:13][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created7426917931548562585diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-05 00:03:13][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-05 00:03:13][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:03:16][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-05 00:03:18][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-05 00:03:18][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-05 00:03:18][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-05 00:03:18][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-05 00:03:18][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-05 00:03:18][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-05 00:03:18][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-05 00:03:18][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@45451333
+[2019-08-05 00:03:18][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-05 00:03:18][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-05 00:03:18][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 16.327 seconds (JVM running for 24.542)
+[2019-08-05 00:03:19][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:03:19][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-05 00:03:19][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-05 00:03:19][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:03:19][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-05 00:03:19][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:03:19][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-05 00:03:19][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-05 00:04:22][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-05 00:04:22][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-05 00:04:22][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-05 00:04:23][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-05 00:04:23][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-05 00:04:23][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57c88764, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78faea5f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37fdfb05, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e39850, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1603dc2f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@398474a2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61799544, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78c1a023, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70abf9b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@476ec9d0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@325bb9a6]
+[2019-08-05 00:04:25][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 17228 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-05 00:04:25][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-05 00:04:30][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-05 00:04:31][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-05 00:04:32][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-05 00:04:34][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-05 00:04:34][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created7830979255860807299diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-05 00:04:34][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-05 00:04:34][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:04:37][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-05 00:04:38][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-05 00:04:38][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-05 00:04:38][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-05 00:04:38][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-05 00:04:38][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-05 00:04:38][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-05 00:04:38][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-05 00:04:38][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4f2d8175
+[2019-08-05 00:04:39][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-05 00:04:39][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-05 00:04:39][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 15.659 seconds (JVM running for 24.202)
+[2019-08-05 00:04:39][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:04:39][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-05 00:04:39][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-05 00:04:39][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:04:39][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-05 00:04:39][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:04:39][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-05 00:04:39][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-05 00:06:24][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-05 00:06:24][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-05 00:06:24][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-05 00:06:25][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-05 00:06:25][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-05 00:06:25][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e39850, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1603dc2f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@398474a2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@61799544, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78c1a023, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70abf9b0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a10b263, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@476ec9d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@325bb9a6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d12b024, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72fe8a4f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43effd89]
+[2019-08-05 00:06:27][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 2556 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-05 00:06:27][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-05 00:06:31][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-05 00:06:33][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-05 00:06:34][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-05 00:06:36][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-05 00:06:36][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created2688025102162120842diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-05 00:06:36][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-05 00:06:36][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:06:39][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-05 00:06:40][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-05 00:06:40][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-05 00:06:40][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-05 00:06:40][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-05 00:06:40][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-05 00:06:40][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-05 00:06:40][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-05 00:06:40][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5c703860
+[2019-08-05 00:06:40][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-05 00:06:41][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-05 00:06:41][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 15.39 seconds (JVM running for 23.665)
+[2019-08-05 00:06:41][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:06:41][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-05 00:06:41][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-05 00:06:41][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:06:41][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-05 00:06:41][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:06:41][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-05 00:06:41][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-05 00:12:59][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-05 00:13:00][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-05 00:13:00][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-05 00:13:00][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-05 00:13:01][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-05 00:13:01][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78c1a023, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70abf9b0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@476ec9d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@325bb9a6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d12b024, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72fe8a4f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43effd89, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c16fadb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@248deced, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2227a6c1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e9804b9]
+[2019-08-05 00:13:03][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 10016 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-05 00:13:03][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-05 00:13:09][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-05 00:13:10][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-05 00:13:12][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-05 00:13:14][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-05 00:13:14][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created5057711682141921076diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-05 00:13:14][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-05 00:13:14][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:13:18][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-05 00:13:19][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-05 00:13:20][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-05 00:13:20][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-05 00:13:20][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-05 00:13:20][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-05 00:13:20][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-05 00:13:20][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-05 00:13:20][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7b80af04
+[2019-08-05 00:13:20][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-05 00:13:20][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-05 00:13:20][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 19.299 seconds (JVM running for 29.787)
+[2019-08-05 00:13:21][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:13:21][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-05 00:13:21][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-05 00:13:21][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:13:21][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-05 00:13:21][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:13:21][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-05 00:13:21][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed
+[2019-08-05 00:15:39][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.own.springboot.LearnStartApplicationTests], using SpringBootContextLoader
+[2019-08-05 00:15:39][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [com.own.springboot.LearnStartApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-08-05 00:15:39][main][INFO][org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] Could not detect default configuration classes for test class [com.own.springboot.LearnStartApplicationTests]: LearnStartApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2019-08-05 00:15:39][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] Found @SpringBootConfiguration com.own.springboot.LearnStartApplication for test class com.own.springboot.LearnStartApplicationTests
+[2019-08-05 00:15:40][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-08-05 00:15:40][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78faea5f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@37fdfb05, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5e39850, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1603dc2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@398474a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@61799544, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78c1a023, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70abf9b0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a10b263, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@476ec9d0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@325bb9a6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d12b024]
+[2019-08-05 00:15:42][main][INFO][com.own.springboot.LearnStartApplicationTests:50] Starting LearnStartApplicationTests on DESKTOP-3T055Q6 with PID 1432 (started by admin in D:\learnSpringboot\learn-start)
+[2019-08-05 00:15:42][main][INFO][com.own.springboot.LearnStartApplicationTests:679] The following profiles are active: dev
+[2019-08-05 00:15:47][main][INFO][com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] Init DruidDataSource
+[2019-08-05 00:15:48][main][INFO][com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2019-08-05 00:15:49][main][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:134] Initializing EhCache CacheManager
+[2019-08-05 00:15:51][main][WARN][net.sf.ehcache.config.CacheConfiguration:1857] Configuration problem for cache userCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+[2019-08-05 00:15:51][main][WARN][net.sf.ehcache.DiskStorePathManager:162] diskStorePath 'C:\Users\admin\AppData\Local\Temp\ehcache' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\admin\AppData\Local\Temp\ehcache\ehcache_auto_created2381319049030703703diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+[2019-08-05 00:15:52][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-08-05 00:15:52][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:15:54][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-08-05 00:15:55][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-08-05 00:15:55][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-08-05 00:15:55][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-08-05 00:15:55][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-08-05 00:15:55][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-08-05 00:15:55][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-08-05 00:15:55][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-08-05 00:15:55][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@37dec463
+[2019-08-05 00:15:56][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-08-05 00:15:56][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-08-05 00:15:56][main][INFO][com.own.springboot.LearnStartApplicationTests:59] Started LearnStartApplicationTests in 16.094 seconds (JVM running for 24.401)
+[2019-08-05 00:15:56][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:15:56][Thread-6][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-08-05 00:15:56][Thread-6][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-08-05 00:15:56][Thread-6][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-08-05 00:15:56][Thread-6][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-08-05 00:15:56][Thread-6][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-08-05 00:15:56][Thread-6][INFO][org.springframework.cache.ehcache.EhCacheManagerFactoryBean:192] Shutting down EhCache CacheManager
+[2019-08-05 00:15:56][Thread-6][INFO][com.alibaba.druid.pool.DruidDataSource:1823] {dataSource-1} closed

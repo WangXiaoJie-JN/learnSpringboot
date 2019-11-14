@@ -1,0 +1,1657 @@
+[2019-06-23 09:18:20][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [FourThreadPool], using SpringBootContextLoader
+[2019-06-23 09:18:20][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 09:18:20][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 09:18:20][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@126945f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a898881, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16c63f5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35229f85, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d3c5255, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b1712f3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6986bbaf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4879dfad, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4758820d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@74eb909f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28ec166e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2eee3069]
+[2019-06-23 09:18:21][main][INFO][FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 11192 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 09:18:21][main][INFO][FourThreadPool:679] The following profiles are active: dev
+[2019-06-23 09:18:24][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 09:18:24][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:18:26][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 09:18:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 09:18:26][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 09:18:26][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 09:18:26][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 09:18:26][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 09:18:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 09:18:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 09:18:26][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@136965e3
+[2019-06-23 09:18:26][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 09:18:26][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 09:18:26][main][INFO][FourThreadPool:59] Started FourThreadPool in 5.939 seconds (JVM running for 11.322)
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:18:28][pool-3-thread-1][INFO][FourThreadPool:47] pool-3-thread-1：正在执行
+[2019-06-23 09:19:58][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [FourThreadPool], using SpringBootContextLoader
+[2019-06-23 09:19:58][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 09:19:58][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 09:19:58][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@64b73e7a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@530712d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df6226d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12ed9db6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ff4357f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49cb9cb5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55322aab, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b4c1d96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45fd9a4d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50468873, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@146587a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f0e9815]
+[2019-06-23 09:19:59][main][INFO][FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 16592 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 09:19:59][main][INFO][FourThreadPool:679] The following profiles are active: dev
+[2019-06-23 09:20:02][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 09:20:02][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:20:03][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 09:20:04][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 09:20:04][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 09:20:04][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 09:20:04][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 09:20:04][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 09:20:04][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 09:20:04][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 09:20:04][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3722c145
+[2019-06-23 09:20:04][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 09:20:04][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 09:20:04][main][INFO][FourThreadPool:59] Started FourThreadPool in 5.509 seconds (JVM running for 10.3)
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----0
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----1
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----2
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----3
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----4
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----5
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----6
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----7
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----8
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----9
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----10
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----11
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----12
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----13
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----14
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----15
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----16
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----17
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----18
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----19
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----20
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----21
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----22
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----23
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----24
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----25
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----26
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----27
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----28
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----29
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----30
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----31
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----32
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----33
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----34
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----35
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----36
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----37
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----38
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----39
+[2019-06-23 09:20:05][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----40
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----41
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----42
+[2019-06-23 09:20:05][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----43
+[2019-06-23 09:20:05][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----44
+[2019-06-23 09:20:05][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----45
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----46
+[2019-06-23 09:20:05][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----47
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----48
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----49
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----50
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----51
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----52
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----53
+[2019-06-23 09:20:05][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----54
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----55
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----56
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----57
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----58
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----59
+[2019-06-23 09:20:05][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----60
+[2019-06-23 09:21:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [FourThreadPool], using SpringBootContextLoader
+[2019-06-23 09:21:08][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 09:21:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 09:21:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2df6226d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@12ed9db6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4ff4357f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49cb9cb5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55322aab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2b4c1d96, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45fd9a4d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@50468873, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@146587a2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f0e9815, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@76884e4b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@126945f9]
+[2019-06-23 09:21:10][main][INFO][FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 14464 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 09:21:10][main][INFO][FourThreadPool:679] The following profiles are active: dev
+[2019-06-23 09:21:12][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 09:21:12][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:21:13][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 09:21:14][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 09:21:14][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 09:21:14][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 09:21:14][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 09:21:14][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 09:21:14][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 09:21:14][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 09:21:14][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@52ff99cd
+[2019-06-23 09:21:14][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 09:21:14][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 09:21:14][main][INFO][FourThreadPool:59] Started FourThreadPool in 5.351 seconds (JVM running for 10.257)
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----0
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----1
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----2
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----3
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----4
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----5
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----6
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----7
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----8
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----9
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----10
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----11
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----12
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----13
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----14
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----15
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----16
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----17
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----18
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----19
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----20
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----21
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----22
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----23
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----24
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----25
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----26
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----27
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----28
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----29
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----30
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----31
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----32
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----33
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----34
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----35
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----36
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----37
+[2019-06-23 09:21:15][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----38
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----39
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----40
+[2019-06-23 09:21:15][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----41
+[2019-06-23 09:21:15][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----42
+[2019-06-23 09:21:15][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----43
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----44
+[2019-06-23 09:21:15][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----45
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----46
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----47
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----48
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----49
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----50
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----51
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----52
+[2019-06-23 09:21:15][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----53
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----54
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----55
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----56
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----57
+[2019-06-23 09:21:15][pool-3-thread-1][INFO][FourThreadPool:47] 正在执行----58
+[2019-06-23 09:23:38][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [FourThreadPool], using SpringBootContextLoader
+[2019-06-23 09:23:38][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 09:23:38][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 09:23:38][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@64b73e7a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@530712d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df6226d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12ed9db6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ff4357f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49cb9cb5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55322aab, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b4c1d96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45fd9a4d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50468873, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@146587a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f0e9815]
+[2019-06-23 09:23:39][main][INFO][FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 11384 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 09:23:39][main][INFO][FourThreadPool:679] The following profiles are active: dev
+[2019-06-23 09:23:41][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 09:23:41][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:23:43][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 09:23:43][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 09:23:43][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 09:23:43][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 09:23:43][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 09:23:43][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 09:23:43][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 09:23:43][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 09:23:43][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3291b443
+[2019-06-23 09:23:44][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 09:23:44][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 09:23:44][main][INFO][FourThreadPool:59] Started FourThreadPool in 5.318 seconds (JVM running for 9.913)
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----0
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----1
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----2
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----3
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----4
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----5
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----6
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----7
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----8
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----9
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----10
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----11
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----12
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----13
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----14
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----15
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----16
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----17
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----18
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----19
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----20
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----21
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----22
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----23
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----24
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----25
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----26
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----27
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----28
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----29
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----30
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----31
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----32
+[2019-06-23 09:23:44][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----33
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----34
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----35
+[2019-06-23 09:23:44][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----36
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----37
+[2019-06-23 09:23:44][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----38
+[2019-06-23 09:23:44][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----39
+[2019-06-23 09:23:44][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----40
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----41
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----42
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----43
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----44
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----45
+[2019-06-23 09:23:44][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----46
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----47
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----48
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----49
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----50
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----51
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----52
+[2019-06-23 09:23:44][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----53
+[2019-06-23 09:26:05][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [FourThreadPool], using SpringBootContextLoader
+[2019-06-23 09:26:05][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [FourThreadPool]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 09:26:06][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 09:26:06][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@64b73e7a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@530712d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2df6226d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12ed9db6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ff4357f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49cb9cb5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55322aab, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b4c1d96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45fd9a4d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50468873, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@146587a2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f0e9815]
+[2019-06-23 09:26:07][main][INFO][FourThreadPool:50] Starting FourThreadPool on DESKTOP-3T055Q6 with PID 5648 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 09:26:07][main][INFO][FourThreadPool:679] The following profiles are active: dev
+[2019-06-23 09:26:09][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 09:26:09][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:26:11][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 09:26:11][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 09:26:11][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 09:26:11][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 09:26:11][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 09:26:11][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 09:26:11][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 09:26:11][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 09:26:11][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@53d13cd4
+[2019-06-23 09:26:11][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 09:26:11][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 09:26:11][main][INFO][FourThreadPool:59] Started FourThreadPool in 5.373 seconds (JVM running for 10.317)
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----0
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----1
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----2
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----3
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----4
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----5
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----6
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----7
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----8
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----9
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----10
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----11
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----12
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----13
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----14
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----15
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----16
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----17
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----18
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----19
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----20
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----21
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----22
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----23
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----24
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----25
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----26
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----27
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----28
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----29
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----30
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----31
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----32
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----33
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----34
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----35
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----36
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----37
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----38
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----39
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----40
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----41
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----42
+[2019-06-23 09:26:12][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----43
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----44
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----45
+[2019-06-23 09:26:12][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----46
+[2019-06-23 09:26:12][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----47
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----48
+[2019-06-23 09:26:12][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----49
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----50
+[2019-06-23 09:26:12][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----51
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----52
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----53
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----54
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----55
+[2019-06-23 09:26:12][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----56
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----57
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----58
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----59
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----60
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----61
+[2019-06-23 09:26:12][pool-3-thread-1][INFO][FourThreadPool:40] 正在执行----62
+[2019-06-23 10:21:07][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:21:07][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:21:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:21:08][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2eee3069, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2da59753, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5629510, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4df5bcb4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12c7a01b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9b21f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2826f61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62727399, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@737a135b]
+[2019-06-23 10:21:09][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 15716 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:21:09][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:21:14][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:21:14][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:21:14][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 4858 ms
+[2019-06-23 10:21:14][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:21:14][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:21:15][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:21:16][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:21:16][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:21:16][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:21:16][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:21:16][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:21:16][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:21:16][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:21:16][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@42a0501e
+[2019-06-23 10:21:16][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:21:16][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:21:16][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:21:16][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:21:16][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50088 (http) with context path ''
+[2019-06-23 10:21:16][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 8.592 seconds (JVM running for 14.138)
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:21:17][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:21:17][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:21:18][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:21:18][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:21:18][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:21:19][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:21:19][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:21:19][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:21:19][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:21:19][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将16放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将16放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:21:19][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:21:19][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:21:19][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将18放入队列
+[2019-06-23 10:21:19][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:21:20][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将18放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:21:20][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:21:20][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:21:20][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将20放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:21:20][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将20放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:21:20][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:21:20][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将22放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将22放入队列
+[2019-06-23 10:21:20][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:21:21][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将23放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:21:21][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将23放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将24放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:21:21][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将24放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:21:21][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将25放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:21:21][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将25放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:20
+[2019-06-23 10:21:21][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将26放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:20
+[2019-06-23 10:21:21][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将26放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:21
+[2019-06-23 10:21:21][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将27放入队列
+[2019-06-23 10:21:21][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:21
+[2019-06-23 10:21:22][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将27放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:22
+[2019-06-23 10:21:22][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将28放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:22
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:23
+[2019-06-23 10:21:22][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将28放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:23
+[2019-06-23 10:21:22][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将29放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将29放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:24
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:24
+[2019-06-23 10:21:22][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将30放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将30放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:25
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:25
+[2019-06-23 10:21:22][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将31放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将31放入队列
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:26
+[2019-06-23 10:21:22][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:26
+[2019-06-23 10:21:22][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将32放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将32放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:27
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:27
+[2019-06-23 10:21:23][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将33放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将33放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:28
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:28
+[2019-06-23 10:21:23][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将34放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将34放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:29
+[2019-06-23 10:21:23][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将35放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:29
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:30
+[2019-06-23 10:21:23][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将35放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:30
+[2019-06-23 10:21:23][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将36放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将36放入队列
+[2019-06-23 10:21:23][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:31
+[2019-06-23 10:21:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将37放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:31
+[2019-06-23 10:21:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将37放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:32
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:32
+[2019-06-23 10:21:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将38放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:33
+[2019-06-23 10:21:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将38放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将39放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:33
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:34
+[2019-06-23 10:21:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将39放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:34
+[2019-06-23 10:21:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将40放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:35
+[2019-06-23 10:21:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将40放入队列
+[2019-06-23 10:21:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:35
+[2019-06-23 10:21:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将41放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将41放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:36
+[2019-06-23 10:21:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将42放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:36
+[2019-06-23 10:21:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将42放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:37
+[2019-06-23 10:21:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将43放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:37
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:38
+[2019-06-23 10:21:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将43放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:38
+[2019-06-23 10:21:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将44放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将44放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:39
+[2019-06-23 10:21:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将45放入队列
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:39
+[2019-06-23 10:21:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:40
+[2019-06-23 10:21:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将45放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:40
+[2019-06-23 10:21:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将46放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将46放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:41
+[2019-06-23 10:21:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将47放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:41
+[2019-06-23 10:21:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将47放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:42
+[2019-06-23 10:21:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将48放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:42
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:43
+[2019-06-23 10:21:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将48放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:43
+[2019-06-23 10:21:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将49放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将49放入队列
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:44
+[2019-06-23 10:21:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:44
+[2019-06-23 10:21:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将50放入队列
+[2019-06-23 10:21:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将50放入队列
+[2019-06-23 10:21:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:45
+[2019-06-23 10:21:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:45
+[2019-06-23 10:21:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将51放入队列
+[2019-06-23 10:21:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:46
+[2019-06-23 10:21:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将51放入队列
+[2019-06-23 10:21:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将52放入队列
+[2019-06-23 10:21:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:46
+[2019-06-23 10:21:27][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:21:27][thread_pool_taskExecutor_1][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:21:29][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:21:30 GMT+08:00 2019
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:21:30 GMT+08:00 2019
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:21:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:21:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:22:34][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:22:34][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:22:34][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:22:34][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:22:36][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 16992 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:22:36][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:22:39][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:22:40][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:22:40][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3936 ms
+[2019-06-23 10:22:40][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:22:40][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:22:41][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:22:41][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:22:41][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:22:41][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:22:41][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:22:41][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:22:41][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:22:41][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:22:41][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2596d7f4
+[2019-06-23 10:22:41][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:22:41][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:22:42][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:22:42][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:22:42][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50130 (http) with context path ''
+[2019-06-23 10:22:42][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.28 seconds (JVM running for 11.924)
+[2019-06-23 10:22:42][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:22:42][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:22:42][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:22:42][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:22:42][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:22:42][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:22:42][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:22:42][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:22:43][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:22:43][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:22:44][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:22:44][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:22:44][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:22:44][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:22:44][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:22:44][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:22:44][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:22:44][thread_pool_taskExecutor_2][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:22:46][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:23:00 GMT+08:00 2019
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:23:00 GMT+08:00 2019
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:23:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:23:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:23:30 GMT+08:00 2019
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:23:30 GMT+08:00 2019
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:23:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:23:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:24:38][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:24:38][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:24:39][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:24:39][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2eee3069, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2da59753, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5629510, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4df5bcb4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12c7a01b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9b21f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2826f61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62727399, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@737a135b]
+[2019-06-23 10:24:40][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 14612 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:24:40][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:24:44][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:24:44][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:24:44][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 4055 ms
+[2019-06-23 10:24:44][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:24:44][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:24:45][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:24:46][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:24:46][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:24:46][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:24:46][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:24:46][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:24:46][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:24:46][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:24:46][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4462efe1
+[2019-06-23 10:24:46][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:24:46][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:24:46][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:24:46][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:24:46][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50185 (http) with context path ''
+[2019-06-23 10:24:46][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.412 seconds (JVM running for 12.249)
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将2放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将4放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:24:47][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:24:47][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:24:48][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:24:48][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:24:48][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将16放入队列
+[2019-06-23 10:24:48][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:24:49][thread_pool_taskExecutor_2][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:24:49][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:24:50][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:25:00 GMT+08:00 2019
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:25:00 GMT+08:00 2019
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:25:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:25:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:26:18][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:26:18][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:26:18][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:26:19][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:26:20][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 14408 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:26:20][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:26:24][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:26:24][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:26:24][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 4145 ms
+[2019-06-23 10:26:24][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:26:24][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:26:26][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:26:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:26:26][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:26:26][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:26:26][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:26:26][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:26:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:26:26][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:26:26][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2db4ad1
+[2019-06-23 10:26:26][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:26:26][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:26:26][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:26:26][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:26:26][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50244 (http) with context path ''
+[2019-06-23 10:26:26][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.848 seconds (JVM running for 12.795)
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将8放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将10放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将12放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:26:27][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:26:27][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将14放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将16放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将18放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将20放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将22放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将23放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将24放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将25放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将26放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将27放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:26:28][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将28放入队列
+[2019-06-23 10:26:28][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:26:29][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将29放入队列
+[2019-06-23 10:26:29][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:26:29][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:26:29][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将30放入队列
+[2019-06-23 10:26:29][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:20
+[2019-06-23 10:26:29][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将31放入队列
+[2019-06-23 10:26:29][thread_pool_taskExecutor_2][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:26:29][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:26:30 GMT+08:00 2019
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:26:30 GMT+08:00 2019
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:26:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:26:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:26:31][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:29:42][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:29:42][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:29:43][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:29:43][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2eee3069, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2da59753, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5629510, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4df5bcb4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12c7a01b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9b21f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2826f61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62727399, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@737a135b]
+[2019-06-23 10:29:44][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 7032 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:29:44][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:29:48][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:29:48][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:29:48][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3890 ms
+[2019-06-23 10:29:48][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:29:48][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:29:49][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:29:50][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:29:50][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:29:50][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:29:50][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:29:50][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:29:50][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:29:50][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:29:50][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4462efe1
+[2019-06-23 10:29:50][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:29:50][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:29:50][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:29:50][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:29:50][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50334 (http) with context path ''
+[2019-06-23 10:29:50][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.217 seconds (JVM running for 11.752)
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:29:51][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:29:52][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将23放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:29:52][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将24放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将25放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:29:52][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将26放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将27放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:29:52][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将28放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将29放入队列
+[2019-06-23 10:29:52][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:29:53][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:29:53][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将30放入队列
+[2019-06-23 10:29:53][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:29:53][thread_pool_taskExecutor_2][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:29:55][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:30:00 GMT+08:00 2019
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:30:00][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:30:00 GMT+08:00 2019
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:30:00][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:30:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:30:16][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:30:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:30:16][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2eee3069, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2da59753, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5629510, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4df5bcb4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12c7a01b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@13d9b21f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2826f61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62727399, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@737a135b]
+[2019-06-23 10:30:17][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 16912 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:30:17][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:30:21][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:30:21][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:30:21][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 4015 ms
+[2019-06-23 10:30:22][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:30:22][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:30:23][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:30:23][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:30:23][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:30:23][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:30:23][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:30:23][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:30:23][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:30:23][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:30:23][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2629d5dc
+[2019-06-23 10:30:23][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:30:23][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:30:24][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:30:24][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:30:24][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50378 (http) with context path ''
+[2019-06-23 10:30:24][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.357 seconds (JVM running for 11.991)
+[2019-06-23 10:30:24][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:30:24][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:30:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将1放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:30:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:30:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将3放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将5放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:30:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将6放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:30:24][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:30:24][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将7放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将9放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将11放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将13放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将15放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将17放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将19放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将21放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将23放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:30:25][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将24放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将25放入队列
+[2019-06-23 10:30:25][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:30:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将26放入队列
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:30:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将27放入队列
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:30:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将28放入队列
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:30:26][thread_pool_taskExecutor_1][INFO][Productor:26] 正在成产，将29放入队列
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:30:26][thread_pool_taskExecutor_2][INFO][Productor:26] 正在成产，将30放入队列
+[2019-06-23 10:30:26][thread_pool_taskExecutor_1][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:30:26][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:30:28][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:33:05][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:33:05][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:33:06][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:33:06][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:33:07][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 14928 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:33:07][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:33:11][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:33:11][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:33:11][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3905 ms
+[2019-06-23 10:33:11][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:33:11][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:33:12][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:33:13][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:33:13][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:33:13][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:33:13][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:33:13][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:33:13][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:33:13][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:33:13][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2596d7f4
+[2019-06-23 10:33:13][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:33:13][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:33:13][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:33:13][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:33:13][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50432 (http) with context path ''
+[2019-06-23 10:33:13][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.3 seconds (JVM running for 12.033)
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将2放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将2放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将3放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将4放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将6放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将5放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将7放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将8放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将9放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将10放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将12放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将11放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将13放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将14放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将15放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将16放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将17放入队列
+[2019-06-23 10:33:14][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:33:14][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将18放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将19放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:33:15][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将20放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将22放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将23放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将24放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将25放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将26放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:33:15][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将27放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:33:15][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将28放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将29放入队列
+[2019-06-23 10:33:15][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:33:16][thread_pool_taskExecutor_2][INFO][Productor:28] 正在成产，将30放入队列
+[2019-06-23 10:33:16][thread_pool_taskExecutor_3][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:33:16][thread_pool_taskExecutor_2][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:33:16][thread_pool_taskExecutor_3][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:33:18][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:34:45][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:34:45][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:34:46][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:34:46][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:34:47][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 15028 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:34:47][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:34:51][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:34:51][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:34:51][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3952 ms
+[2019-06-23 10:34:51][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:34:51][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:34:52][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:34:53][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:34:53][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:34:53][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:34:53][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:34:53][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:34:53][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:34:53][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:34:53][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7dffda8b
+[2019-06-23 10:34:53][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:34:53][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:34:53][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:34:53][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:34:53][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50476 (http) with context path ''
+[2019-06-23 10:34:53][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.327 seconds (JVM running for 11.975)
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将1放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:1
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将2放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:2
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将3放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:3
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:4
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将4放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:5
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将5放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将6放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:6
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:7
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将7放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将8放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:8
+[2019-06-23 10:34:54][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将9放入队列
+[2019-06-23 10:34:54][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:9
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:10
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将10放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:11
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将11放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将12放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:12
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:13
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将13放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:14
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将14放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:15
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将15放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:16
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将16放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将17放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:17
+[2019-06-23 10:34:55][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将18放入队列
+[2019-06-23 10:34:55][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:18
+[2019-06-23 10:34:56][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费：product-count:19
+[2019-06-23 10:34:56][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将19放入队列
+[2019-06-23 10:34:56][thread_pool_taskExecutor_1][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:34:56][thread_pool_taskExecutor_2][INFO][Consumor:37] 消费结束！
+[2019-06-23 10:34:58][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:34:58][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:34:58][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 10:34:58][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 10:34:58][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:34:58][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 10:34:58][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:38:21][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:38:21][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:38:21][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:38:21][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:38:22][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 2572 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:38:22][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:38:26][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:38:26][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:38:26][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3905 ms
+[2019-06-23 10:38:26][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:38:26][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:38:28][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:38:28][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:38:28][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:38:28][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:38:28][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:38:28][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:38:28][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:38:28][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:38:28][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2db4ad1
+[2019-06-23 10:38:28][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:38:28][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:38:28][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:38:28][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:38:28][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50539 (http) with context path ''
+[2019-06-23 10:38:28][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.108 seconds (JVM running for 11.761)
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将1放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:1
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:2
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将2放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:3
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将3放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将4放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:4
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:5
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将5放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:6
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将6放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将7放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:7
+[2019-06-23 10:38:29][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将8放入队列
+[2019-06-23 10:38:29][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:8
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:23] now time=Sun Jun 23 10:38:30 GMT+08:00 2019
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:31] ------------------now is Sun Jun 23 10:38:30 GMT+08:00 2019
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-0
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-0
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-1
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-1
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-2
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-2
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-3
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-3
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-4
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-4
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-5
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-5
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-6
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-6
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-7
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-7
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-8
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-8
+[2019-06-23 10:38:30][pool-2-thread-2][INFO][SchedualJobController:25] scheduledTask-9
+[2019-06-23 10:38:30][pool-2-thread-1][INFO][SchedualJobController:33] ---scheduledTask2-9
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:9
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将9放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:10
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将10放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:11
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将11放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:12
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将12放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:13
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将13放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:14
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将14放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将15放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:15
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将16放入队列
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:16
+[2019-06-23 10:38:30][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:17
+[2019-06-23 10:38:30][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将17放入队列
+[2019-06-23 10:38:31][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将18放入队列
+[2019-06-23 10:38:31][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:18
+[2019-06-23 10:38:31][thread_pool_taskExecutor_2][INFO][Consumor:28] 正在消费：product-count:19
+[2019-06-23 10:38:31][thread_pool_taskExecutor_1][INFO][Productor:28] 正在成产，将19放入队列
+[2019-06-23 10:38:31][thread_pool_taskExecutor_2][INFO][Consumor:39] 消费结束！
+[2019-06-23 10:38:31][thread_pool_taskExecutor_1][INFO][Productor:40] 退出生产流程！
+[2019-06-23 10:38:33][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:38:33][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:38:33][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 10:38:33][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 10:38:33][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:38:33][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 10:38:33][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:45:40][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [AnnotinationTest], using SpringBootContextLoader
+[2019-06-23 10:45:40][main][INFO][org.springframework.test.context.support.AbstractContextLoader:264] Could not detect default resource locations for test class [AnnotinationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2019-06-23 10:45:40][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[2019-06-23 10:45:40][main][INFO][org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5629510, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4df5bcb4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@12c7a01b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13d9b21f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2826f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62727399, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4d9ac0b4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130dca52, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2654635, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@737a135b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@687ef2e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15dcfae7]
+[2019-06-23 10:45:41][main][INFO][AnnotinationTest:50] Starting AnnotinationTest on DESKTOP-3T055Q6 with PID 10852 (started by admin in D:\learnSpringboot\learn-start)
+[2019-06-23 10:45:41][main][INFO][AnnotinationTest:679] The following profiles are active: dev
+[2019-06-23 10:45:45][main][WARN][io.undertow.websockets.jsr:68] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[2019-06-23 10:45:45][main][INFO][io.undertow.servlet:364] Initializing Spring embedded WebApplicationContext
+[2019-06-23 10:45:45][main][INFO][org.springframework.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3999 ms
+[2019-06-23 10:45:46][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService
+[2019-06-23 10:45:46][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:45:47][main][WARN][org.thymeleaf.templatemode.TemplateMode:150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[2019-06-23 10:45:47][main][INFO][org.quartz.impl.StdSchedulerFactory:1184] Using default implementation for ThreadExecutor
+[2019-06-23 10:45:47][main][INFO][org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2019-06-23 10:45:47][main][INFO][org.quartz.core.QuartzScheduler:240] Quartz Scheduler v.2.2.1 created.
+[2019-06-23 10:45:47][main][INFO][org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2019-06-23 10:45:47][main][INFO][org.quartz.core.QuartzScheduler:305] Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2019-06-23 10:45:47][main][INFO][org.quartz.impl.StdSchedulerFactory:1339] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2019-06-23 10:45:47][main][INFO][org.quartz.impl.StdSchedulerFactory:1343] Quartz scheduler version: 2.2.1
+[2019-06-23 10:45:47][main][INFO][org.quartz.core.QuartzScheduler:2311] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@42a0501e
+[2019-06-23 10:45:47][main][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:726] Starting Quartz Scheduler now
+[2019-06-23 10:45:47][main][INFO][org.quartz.core.QuartzScheduler:575] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2019-06-23 10:45:48][main][INFO][org.xnio:104] XNIO version 3.3.8.Final
+[2019-06-23 10:45:48][main][INFO][org.xnio.nio:55] XNIO NIO Implementation Version 3.3.8.Final
+[2019-06-23 10:45:48][main][INFO][org.springframework.boot.web.embedded.undertow.UndertowServletWebServer:148] Undertow started on port(s) 50647 (http) with context path ''
+[2019-06-23 10:45:48][main][INFO][AnnotinationTest:59] Started AnnotinationTest in 7.264 seconds (JVM running for 11.856)
+[2019-06-23 10:45:48][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_1][INFO][Productor:23] 开始生产流程...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:48][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:49][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:27] 成产...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:27] 正在消费...
+[2019-06-23 10:45:50][thread_pool_taskExecutor_1][INFO][Productor:41] 退出生产流程！
+[2019-06-23 10:45:50][thread_pool_taskExecutor_2][INFO][Consumor:40] 消费结束！
+[2019-06-23 10:45:52][main][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'
+[2019-06-23 10:45:52][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:45:52][Thread-4][INFO][org.springframework.scheduling.quartz.SchedulerFactoryBean:844] Shutting down Quartz Scheduler
+[2019-06-23 10:45:52][Thread-4][INFO][org.quartz.core.QuartzScheduler:694] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2019-06-23 10:45:52][Thread-4][INFO][org.quartz.core.QuartzScheduler:613] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2019-06-23 10:45:52][Thread-4][INFO][org.quartz.core.QuartzScheduler:771] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2019-06-23 10:45:52][Thread-4][INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'myAsyncThreadPool'

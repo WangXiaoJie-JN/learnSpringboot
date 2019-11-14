@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        ">
+    <!--
+    1.注解dubbo服务所在的包2.配置支持两种调用方式对应的协议3.如是客户端，要配置消费服务配置
+    -->
+
+    <!--发布出去的dubbo服务类所在包的注解-->
+    <dubbo:annotation package="com.own.springboot.dubboService" />
+
+    <!--注册中心zookeeper配置信息-->
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <!--支持两种协议的调用：rpc-dubbo协议；http协议-rest api-url调用-->
+    <dubbo:protocol name="rest" threads="500" contextpath="learnDubboRest" server="tomcat" accepts="500"/>
+    <dubbo:protocol name="dubbo" />
+
+    <!--当前应用名称，用于注册中心计算应用间依赖关系，注意：消费者和提供者应用名不要一样，此参数不是匹配条件-->
+    <dubbo:application name="dubboServer" owner="wangjie" organization="dubbox"/>
+</beans>
+

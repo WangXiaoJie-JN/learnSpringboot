@@ -13,7 +13,13 @@ spring:
     cache: false
     servlet:
       content-type: text/html
-#logging:
+  #activiti:
+    #database-schema-update: true
+    #check-process-definitions: true
+    #process-definition-location-prefix: classpath:/processes
+    #history-level: full
+    #db-history-used: true
+    #db-identity-used: true
 #  level:
 #    org:
 #      springframework:
@@ -24,3 +30,4 @@ mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mappers/**/*Mapper.xml
   type-aliases-package: com.own.springboot.biz
+

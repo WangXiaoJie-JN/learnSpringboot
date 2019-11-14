@@ -7,11 +7,12 @@ thread:
 #druid
 spring:
   datasource:
-    #url: jdbc:oracle:thin:@127.0.0.1:1521/orcl
-    url: jdbc:mysql://localhost:3306/specificdb?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true&amp;useSSL=true
+    url: jdbc:mysql://localhost:3306/specificdb?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=true
     username: localuser
     password: localuser
     driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+      show-sql: true
     druid:
       initial-size: 1
       min-idle: 1

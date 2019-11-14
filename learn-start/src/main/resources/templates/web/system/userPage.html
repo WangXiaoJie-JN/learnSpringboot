@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <title>user-page</title>
+</head>
+<body>
+<div>
+    <table>
+        <thead>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>电话</th>
+            <th>价格</th>
+        </thead>
+        <tr th:each="user : ${userList}">
+
+            <td th:text="${user.userName}"></td>
+            <td th:text="${user.userPwd}"></td>
+            <td th:text="${user.userPhone}"></td>
+            <td th:text="${user.price}"></td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+</html>
