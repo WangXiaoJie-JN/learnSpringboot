@@ -1,0 +1,86 @@
+<% layout('/layouts/manager_content.html',{title:'systemUser',libs: ['jqGrid','siufung']}){ %>
+<div class="main-content">
+	<div class="box box-main">
+		<div class="box-header">
+			<div class="box-title">
+				<i class="fa fa-table"></i> systemUser
+			</div>
+			<div class="box-tools pull-right">
+				<a href="#" class="layui-btn layui-btn-primary layui-btn-sm" id="btnSearch" title="鏌ヨ"><i class="fa fa-filter"></i>&nbsp;鏌ヨ</a>
+				<% if(hasPermi('systemUser_systemUser_add')){ %>
+				<a href="${ctxPath}/systemUser/systemUser/add" class="layui-btn layui-btn-default layui-btn-sm btnTool" title="systemUser of add"><i class="fa fa-plus"></i>&nbsp;鏂板</a>
+				<% } %>
+			</div>
+		</div>
+		<div class="box-body">
+			<form id="searchForm" action="${ctxPath}/systemUser/systemUser/getPage" class="form-inline" method="post">
+				<div class="form-group">
+					<label class="control-label">缂栫爜锛�</label>
+					<div class="control-inline">
+						<input id="code" name="code" class="form-control width-140"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label">鍚嶇О锛�</label>
+					<div class="control-inline">
+						<input id="name" name="name" class="form-control width-140"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="layui-btn layui-btn-default layui-btn-sm"><i class="fa fa-search"></i>&nbsp;鏌ヨ</button>
+					<button type="reset" class="layui-btn layui-btn-primary layui-btn-sm"><i class="fa fa-wrench"></i>&nbsp;閲嶇疆</button>
+				</div>
+			</form>
+			 <table id="systemUserGrid"></table>
+			 <div id="systemUserGridPage"></div>
+		</div>	
+	</div>
+</div>
+<script src="${ctxPath}/modules/systemUser/systemUser/page.js"></script>
+<script type="text/javascript">
+$(function(){
+	//鍔犺浇init鏂规硶
+	systemUserPage.init();
+	//鍒嗛〉
+	$('#systemUserGrid').dataGrid({
+		searchForm: $("#searchForm"),
+		columnModel: [
+			{header:'搴忓垪鍙�', name:'id', index:'ID', hidden:true,key:true},
+			{header:'', name:'userName', index:'USER_NAME', width:150, align:"center"},
+			{header:'', name:'userPwd', index:'USER_PWD', width:150, align:"center"},
+			{header:'', name:'userPlainPwd', index:'USER_PLAIN_PWD', width:150, align:"center"},
+			{header:'', name:'userPhone', index:'USER_PHONE', width:150, align:"center"},
+			{header:'', name:'userWxOpenid', index:'USER_WX_OPENID', width:150, align:"center"},
+			{header:'', name:'userEmail', index:'USER_EMAIL', width:150, align:"center"},
+			{header:'', name:'userSex', index:'USER_SEX', width:150, align:"center"},
+			{header:'', name:'pinyin', index:'PINYIN', width:150, align:"center"},
+			{header:'鍒涘缓鏃堕棿', name:'createDate', index:'CREATE_DATE', sortable:false, width:150, align:"center"},
+			{header:'鐘舵��', name:'delFlag', index:'DEL_FLAG', sortable:false, width:80, align:"center",formatter:function(val, obj, row, act){
+				if(val=='0'){
+					return '<a href="${ctxPath}/systemUser/systemUser/changeStatus/'+row.id+'/2" class="btnList" data-confirm="纭瑕佸仠鐢ㄣ��'+row.name+'銆戝悧?"><span class=\"label label-info babel-sm\">姝ｅ父</span></a>';
+				} 
+				if(val=='2'){
+					return '<a href="${ctxPath}/systemUser/systemUser/changeStatus/'+row.id+'/0" class="btnList" data-confirm="纭瑕佹仮澶嶃��'+row.name+'銆戝悧?"><span class=\"label label-danger babel-sm\">绂佺敤</span></a>';
+				}	
+			}},
+			{header:'鎿嶄綔', name:'actions', width:90, sortable:false, title:false, formatter: function(val, obj, row, act){
+				var actions = [];
+				<% if(hasPermi('systemUser_systemUser_edit')){ %>
+				actions.push('<a href="${ctxPath}/systemUser/systemUser/edit/'+row.id+'" class="btnList" title="systemUser of edit"><i class="fa fa-pencil-square-o"></i></a>&nbsp;');
+				<% } %>
+				<% if(hasPermi('systemUser_systemUser_delete')){ %>
+				actions.push('<a href="${ctxPath}/systemUser/systemUser/remove/'+row.id+'" class="btnList" title="systemUser of remove" data-confirm="纭瑕佸垹闄ゅ悧锛�"><i class="fa fa-trash-o"></i></a>&nbsp;');
+				<% } %>
+				<% if(hasPermi('systemUser_systemUser')){ %>
+				actions.push('<a href="${ctxPath}/systemUser/systemUser/preview/'+row.id+'" class="btnList" title="systemUser of preview"><i class="fa fa-info-circle"></i></a>&nbsp;');
+				<% } %>
+				return actions.join('');
+			}},
+		],
+		ajaxSuccess: function(data){
+			
+		}	
+	});
+});
+</script>
+<% } %>

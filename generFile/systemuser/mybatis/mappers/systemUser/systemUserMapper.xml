@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://www.mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.crrc.imos.biz.systemUser.dao.ISystemUserDAO"> 
+	
+	<!-- COLUMNS -->
+	<sql id="COLUMNS">
+	    <![CDATA[ 
+			systemUser_.ID ,
+			systemUser_.USER_NAME ,
+			systemUser_.USER_PWD ,
+			systemUser_.USER_PLAIN_PWD ,
+			systemUser_.USER_PHONE ,
+			systemUser_.USER_WX_OPENID ,
+			systemUser_.USER_EMAIL ,
+			systemUser_.USER_SEX ,
+			systemUser_.PINYIN ,
+			systemUser_.CREATE_BY ,
+			systemUser_.CREATE_DATE ,
+			systemUser_.UPDATE_BY ,
+			systemUser_.UPDATE_DATE ,
+			systemUser_.DEL_FLAG ,
+			systemUser_.REMARKS ,
+			systemUser_.BAK1 ,
+			systemUser_.BAK2 
+	    ]]>
+	</sql>
+	
+	<sql id="NICK_NAME">
+		systemUser_
+	</sql>
+	
+	<sql id="TABLE_NAME">
+		system_user
+	</sql>
+	
+	<sql id="TABLE">
+		<include refid="TABLE_NAME" /> <include refid="NICK_NAME" />
+	</sql>
+	
+	
+	<sql id="SELECT">
+		SELECT
+		<include refid="COLUMNS" />
+		FROM
+		<include refid="TABLE" />
+	</sql>
+	
+	<sql id="SELECT_COUNT">
+		SELECT
+		<include refid="COLUMNS" />
+		FROM
+		<include refid="TABLE" />
+	</sql>
+	
+	<sql id="DEL_FLAG">
+		(<include refid="NICK_NAME" />.DEL_FLAG = 0 )
+	</sql>
+	
+	<sql id="DEL_FLAG_NORMAL">
+		(<include refid="NICK_NAME" />.DEL_FLAG = 0 )
+	</sql>
+	
+	<sql id="DEL_FLAG_STATE_DISABLE">
+		(<include refid="NICK_NAME" />.DEL_FLAG = 0 OR <include refid="NICK_NAME" />.DEL_FLAG = 2 )
+	</sql>
+	
+	<!-- ENTITY_RESULT_MAP -->
+	<resultMap id="ENTITY_RESULT_MAP" type="com.crrc.imos.biz.systemUser.domain.SystemUser">
+        <result property="id" column="ID"/> <!--  -->
+        <result property="userName" column="USER_NAME"/> <!--  -->
+        <result property="userPwd" column="USER_PWD"/> <!--  -->
+        <result property="userPlainPwd" column="USER_PLAIN_PWD"/> <!--  -->
+        <result property="userPhone" column="USER_PHONE"/> <!--  -->
+        <result property="userWxOpenid" column="USER_WX_OPENID"/> <!--  -->
+        <result property="userEmail" column="USER_EMAIL"/> <!--  -->
+        <result property="userSex" column="USER_SEX"/> <!--  -->
+        <result property="pinyin" column="PINYIN"/> <!--  -->
+        <result property="createBy" column="CREATE_BY"/> <!--  -->
+        <result property="createDate" column="CREATE_DATE"/> <!--  -->
+        <result property="updateBy" column="UPDATE_BY"/> <!--  -->
+        <result property="updateDate" column="UPDATE_DATE"/> <!--  -->
+        <result property="delFlag" column="DEL_FLAG"/> <!--  -->
+        <result property="remarks" column="REMARKS"/> <!--  -->
+        <result property="bak1" column="BAK1"/> <!--  -->
+        <result property="bak2" column="BAK2"/> <!--  -->
+	</resultMap>
+	
+	<!-- insert -->
+	<insert id="insert" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO system_user (
+        	ID ,
+        	USER_NAME ,
+        	USER_PWD ,
+        	USER_PLAIN_PWD ,
+        	USER_PHONE ,
+        	USER_WX_OPENID ,
+        	USER_EMAIL ,
+        	USER_SEX ,
+        	PINYIN ,
+        	CREATE_BY ,
+        	CREATE_DATE ,
+        	DEL_FLAG ,
+        	REMARKS ,
+        	BAK1 ,
+        	BAK2 
+        ) VALUES (
+        	#{id}  ,
+        	#{userName}  ,
+        	#{userPwd}  ,
+        	#{userPlainPwd}  ,
+        	#{userPhone}  ,
+        	#{userWxOpenid}  ,
+        	#{userEmail}  ,
+        	#{userSex}  ,
+        	#{pinyin}  ,
+        	#{createBy}  ,
+        	#{createDate}  ,
+        	#{delFlag}  ,
+        	#{remarks}  ,
+        	#{bak1}  ,
+        	#{bak2}  
+        )
+	</insert>
+	
+	<!-- insertBatch -->
+	<insert id="insertBatch" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser">
+		INSERT INTO system_user (
+        	ID ,
+        	USER_NAME ,
+        	USER_PWD ,
+        	USER_PLAIN_PWD ,
+        	USER_PHONE ,
+        	USER_WX_OPENID ,
+        	USER_EMAIL ,
+        	USER_SEX ,
+        	PINYIN ,
+        	CREATE_BY ,
+        	CREATE_DATE ,
+        	DEL_FLAG ,
+        	REMARKS ,
+        	BAK1 ,
+        	BAK2 
+		)  values
+		<foreach collection="list" item="item" index="index"  
+        separator=",">
+        (
+       		#{item.id} ,
+       		#{item.userName} ,
+       		#{item.userPwd} ,
+       		#{item.userPlainPwd} ,
+       		#{item.userPhone} ,
+       		#{item.userWxOpenid} ,
+       		#{item.userEmail} ,
+       		#{item.userSex} ,
+       		#{item.pinyin} ,
+       		#{item.createBy} ,
+       		#{item.createDate} ,
+       		#{item.delFlag} ,
+       		#{item.remarks} ,
+       		#{item.bak1} ,
+       		#{item.bak2} 
+        )
+        </foreach>
+	</insert>
+	
+	<!-- deleteById -->
+	<delete id="deleteById" parameterType="String">
+		DELETE FROM 
+		<include refid="TABLE_NAME" /> 
+		<where>
+		</where>
+	</delete>
+	
+	<!-- delete -->
+	<delete id="delete" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser">
+		DELETE FROM 
+		<include refid="TABLE_NAME" /> 
+		<where>
+	        <if test='id != null and id != ""'>
+	          AND ID = #{id}
+	        </if> 
+	        <if test='userName != null and userName != ""'>
+	          AND USER_NAME = #{userName}
+	        </if> 
+	        <if test='userPwd != null and userPwd != ""'>
+	          AND USER_PWD = #{userPwd}
+	        </if> 
+	        <if test='userPlainPwd != null and userPlainPwd != ""'>
+	          AND USER_PLAIN_PWD = #{userPlainPwd}
+	        </if> 
+	        <if test='userPhone != null and userPhone != ""'>
+	          AND USER_PHONE = #{userPhone}
+	        </if> 
+	        <if test='userWxOpenid != null and userWxOpenid != ""'>
+	          AND USER_WX_OPENID = #{userWxOpenid}
+	        </if> 
+	        <if test='userEmail != null and userEmail != ""'>
+	          AND USER_EMAIL = #{userEmail}
+	        </if> 
+	        <if test='userSex != null and userSex != ""'>
+	          AND USER_SEX = #{userSex}
+	        </if> 
+	        <if test='pinyin != null and pinyin != ""'>
+	          AND PINYIN = #{pinyin}
+	        </if> 
+	        <if test='createBy != null and createBy != ""'>
+	          AND CREATE_BY = #{createBy}
+	        </if> 
+	        <if test='delFlag != null and delFlag != ""'>
+	          AND DEL_FLAG = #{delFlag}
+	        </if> 
+	        <if test='remarks != null and remarks != ""'>
+	          AND REMARKS = #{remarks}
+	        </if> 
+		</where>
+	</delete>
+	
+	<!-- deleteByMap -->
+	<delete id="deleteByMap" parameterType="java.util.HashMap">
+		DELETE FROM 
+		<include refid="TABLE_NAME" /> 
+		<where>
+	        <if test='id != null and id != ""'>
+	         AND  ID = #{id}
+	        </if> 
+	        <if test='userName != null and userName != ""'>
+	         AND  USER_NAME = #{userName}
+	        </if> 
+	        <if test='userPwd != null and userPwd != ""'>
+	         AND  USER_PWD = #{userPwd}
+	        </if> 
+	        <if test='userPlainPwd != null and userPlainPwd != ""'>
+	         AND  USER_PLAIN_PWD = #{userPlainPwd}
+	        </if> 
+	        <if test='userPhone != null and userPhone != ""'>
+	         AND  USER_PHONE = #{userPhone}
+	        </if> 
+	        <if test='userWxOpenid != null and userWxOpenid != ""'>
+	         AND  USER_WX_OPENID = #{userWxOpenid}
+	        </if> 
+	        <if test='userEmail != null and userEmail != ""'>
+	         AND  USER_EMAIL = #{userEmail}
+	        </if> 
+	        <if test='userSex != null and userSex != ""'>
+	         AND  USER_SEX = #{userSex}
+	        </if> 
+	        <if test='pinyin != null and pinyin != ""'>
+	         AND  PINYIN = #{pinyin}
+	        </if> 
+	        <if test='createBy != null and createBy != ""'>
+	         AND  CREATE_BY = #{createBy}
+	        </if> 
+	        <if test='delFlag != null and delFlag != ""'>
+	         AND  DEL_FLAG = #{delFlag}
+	        </if> 
+	        <if test='remarks != null and remarks != ""'>
+	         AND  REMARKS = #{remarks}
+	        </if> 
+		</where>
+	</delete>
+	
+	<!-- deleteBatchIds -->
+	<delete id="deleteBatchIds" parameterType="String">
+		DELETE FROM 
+		<include refid="TABLE_NAME" /> 
+		<where>
+		<include refid="TABLE_NAME" />.ID IN
+		<foreach item="item" collection="list" open="(" separator="," close=")">
+         #{item}
+        </foreach>
+		</where>
+	</delete>
+	
+	<update id="update"  parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser">
+        UPDATE system_user
+        <set>
+	        <if test='id != null'>
+		    ID = #{id},   
+	        </if>
+	        <if test='userName != null and userName != ""'>
+		    USER_NAME = #{userName},   
+	        </if>
+	        <if test='userPwd != null and userPwd != ""'>
+		    USER_PWD = #{userPwd},   
+	        </if>
+	        <if test='userPlainPwd != null and userPlainPwd != ""'>
+		    USER_PLAIN_PWD = #{userPlainPwd},   
+	        </if>
+	        <if test='userPhone != null'>
+		    USER_PHONE = #{userPhone},   
+	        </if>
+	        <if test='userWxOpenid != null and userWxOpenid != ""'>
+		    USER_WX_OPENID = #{userWxOpenid},   
+	        </if>
+	        <if test='userEmail != null and userEmail != ""'>
+		    USER_EMAIL = #{userEmail},   
+	        </if>
+	        <if test='userSex != null and userSex != ""'>
+		    USER_SEX = #{userSex},   
+	        </if>
+	        <if test='pinyin != null and pinyin != ""'>
+		    PINYIN = #{pinyin},   
+	        </if>
+	        <if test='updateBy != null'>
+		    UPDATE_BY = #{updateBy},   
+	        </if>
+	        <if test='updateDate != null'>
+		    UPDATE_DATE = #{updateDate},   
+	        </if>
+	        <if test='delFlag != null and delFlag != ""'>
+		    DEL_FLAG = #{delFlag},   
+	        </if>
+	        <if test='remarks != null and remarks != ""'>
+		    REMARKS = #{remarks},   
+	        </if>
+	        <if test='bak1 != null'>
+		    BAK1 = #{bak1},   
+	        </if>
+	        <if test='bak2 != null and bak2 != ""'>
+		    BAK2 = #{bak2}   
+	        </if>
+	    </set>
+        <where> 
+	    </where>    	        
+	</update>
+	
+	<!-- updateBatchIds -->
+	<update id="updateBatchIds" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser">
+		  <foreach collection="list" item="item" index="index" open="" close="" separator=";">
+	     	UPDATE system_user
+        	<set>
+		        <if test='item.id != null '>
+			    ID = #{item.id},   
+		        </if>
+		        <if test='item.userName != null and item.userName != ""'>
+			    USER_NAME = #{item.userName},   
+		        </if>
+		        <if test='item.userPwd != null and item.userPwd != ""'>
+			    USER_PWD = #{item.userPwd},   
+		        </if>
+		        <if test='item.userPlainPwd != null and item.userPlainPwd != ""'>
+			    USER_PLAIN_PWD = #{item.userPlainPwd},   
+		        </if>
+		        <if test='item.userPhone != null '>
+			    USER_PHONE = #{item.userPhone},   
+		        </if>
+		        <if test='item.userWxOpenid != null and item.userWxOpenid != ""'>
+			    USER_WX_OPENID = #{item.userWxOpenid},   
+		        </if>
+		        <if test='item.userEmail != null and item.userEmail != ""'>
+			    USER_EMAIL = #{item.userEmail},   
+		        </if>
+		        <if test='item.userSex != null and item.userSex != ""'>
+			    USER_SEX = #{item.userSex},   
+		        </if>
+		        <if test='item.pinyin != null and item.pinyin != ""'>
+			    PINYIN = #{item.pinyin},   
+		        </if>
+		        <if test='item.updateBy != null '>
+			    UPDATE_BY = #{item.updateBy},   
+		        </if>
+		        <if test='item.updateDate != null'>
+			    UPDATE_DATE = #{item.updateDate},   
+		        </if>
+		        <if test='item.delFlag != null and item.delFlag != ""'>
+			    DEL_FLAG = #{item.delFlag},   
+		        </if>
+		        <if test='item.remarks != null and item.remarks != ""'>
+			    REMARKS = #{item.remarks},   
+		        </if>
+		        <if test='item.bak1 != null '>
+			    BAK1 = #{item.bak1},   
+		        </if>
+		        <if test='item.bak2 != null and item.bak2 != ""'>
+			    BAK2 = #{item.bak2}   
+		        </if>
+        	</set>
+        	<where> 
+		    </where>
+    	</foreach>
+	</update>
+	
+	<!-- selectById-->
+	<select id="selectById" resultMap="ENTITY_RESULT_MAP" parameterType="String">
+		<include refid="SELECT" />
+		<where>
+			<include refid="DEL_FLAG" />
+		</where>
+	</select>
+	
+	<select id="selectOne" resultMap="ENTITY_RESULT_MAP" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser">
+		<include refid="SELECT" />
+		<where>
+			<if test='id != null and id != ""'>
+				AND systemUser_.ID = #{id} 
+			</if>
+			<if test='userName != null and userName != ""'>
+				AND systemUser_.USER_NAME = #{userName} 
+			</if>
+			<if test='userPwd != null and userPwd != ""'>
+				AND systemUser_.USER_PWD = #{userPwd} 
+			</if>
+			<if test='userPlainPwd != null and userPlainPwd != ""'>
+				AND systemUser_.USER_PLAIN_PWD = #{userPlainPwd} 
+			</if>
+			<if test='userPhone != null and userPhone != ""'>
+				AND systemUser_.USER_PHONE = #{userPhone} 
+			</if>
+			<if test='userWxOpenid != null and userWxOpenid != ""'>
+				AND systemUser_.USER_WX_OPENID = #{userWxOpenid} 
+			</if>
+			<if test='userEmail != null and userEmail != ""'>
+				AND systemUser_.USER_EMAIL = #{userEmail} 
+			</if>
+			<if test='userSex != null and userSex != ""'>
+				AND systemUser_.USER_SEX = #{userSex} 
+			</if>
+			<if test='pinyin != null and pinyin != ""'>
+				AND systemUser_.PINYIN = #{pinyin} 
+			</if>
+			<if test='delFlag != null and delFlag != ""'>
+				AND systemUser_.DEL_FLAG = #{delFlag} 
+			</if>
+		</where>
+	</select>
+	
+	<!-- selectList -->
+	<select id="selectList" resultMap="ENTITY_RESULT_MAP">
+		<include refid="SELECT" />
+		<where>
+			<if test='id != null and id != ""'>
+				and systemUser_.ID=#{id}
+			</if>
+			<if test='userName != null and userName != ""'>
+				and systemUser_.USER_NAME=#{userName}
+			</if>
+			<if test='userPwd != null and userPwd != ""'>
+				and systemUser_.USER_PWD=#{userPwd}
+			</if>
+			<if test='userPlainPwd != null and userPlainPwd != ""'>
+				and systemUser_.USER_PLAIN_PWD=#{userPlainPwd}
+			</if>
+			<if test='userPhone != null and userPhone != ""'>
+				and systemUser_.USER_PHONE=#{userPhone}
+			</if>
+			<if test='userWxOpenid != null and userWxOpenid != ""'>
+				and systemUser_.USER_WX_OPENID=#{userWxOpenid}
+			</if>
+			<if test='userEmail != null and userEmail != ""'>
+				and systemUser_.USER_EMAIL=#{userEmail}
+			</if>
+			<if test='userSex != null and userSex != ""'>
+				and systemUser_.USER_SEX=#{userSex}
+			</if>
+			<if test='pinyin != null and pinyin != ""'>
+				and systemUser_.PINYIN=#{pinyin}
+			</if>
+			<if test='createBy != null and createBy != ""'>
+				and systemUser_.CREATE_BY=#{createBy}
+			</if>
+			<if test='createDate != null and createDate != ""'>
+				and systemUser_.CREATE_DATE=#{createDate}
+			</if>
+			<if test='updateBy != null and updateBy != ""'>
+				and systemUser_.UPDATE_BY=#{updateBy}
+			</if>
+			<if test='updateDate != null and updateDate != ""'>
+				and systemUser_.UPDATE_DATE=#{updateDate}
+			</if>
+			<if test='delFlag != null and delFlag != ""'>
+				and systemUser_.DEL_FLAG=#{delFlag}
+			</if>
+			<if test='remarks != null and remarks != ""'>
+				and systemUser_.REMARKS=#{remarks}
+			</if>
+			<if test='bak1 != null and bak1 != ""'>
+				and systemUser_.BAK1=#{bak1}
+			</if>
+			<if test='bak2 != null and bak2 != ""'>
+				and systemUser_.BAK2=#{bak2}
+			</if>
+		</where>
+	</select>
+	
+	<!-- selectBatchIds -->
+	<select id="selectBatchIds" parameterType="String" resultMap="ENTITY_RESULT_MAP">
+		<include refid="SELECT" /> 
+		<where>
+		<include refid="NICK_NAME" />.ID IN
+		<foreach item="item" collection="list" open="(" separator="," close=")">
+         #{item}
+        </foreach>
+		</where>
+	</select>
+	
+	<!-- selectByMap -->
+	<select id="selectByMap" parameterType="java.util.HashMap" resultMap="ENTITY_RESULT_MAP">
+	
+	</select>
+	
+	<!-- selectCount -->
+	<select id="selectCount" parameterType="com.crrc.imos.biz.systemUser.domain.SystemUser" resultType="long">
+		<include refid="SELECT_COUNT" />
+		<where>
+			<if test='id != null and id != ""'>
+				and systemUser_.ID=#{id}
+			</if>
+			<if test='userName != null and userName != ""'>
+				and systemUser_.USER_NAME=#{userName}
+			</if>
+			<if test='userPwd != null and userPwd != ""'>
+				and systemUser_.USER_PWD=#{userPwd}
+			</if>
+			<if test='userPlainPwd != null and userPlainPwd != ""'>
+				and systemUser_.USER_PLAIN_PWD=#{userPlainPwd}
+			</if>
+			<if test='userPhone != null and userPhone != ""'>
+				and systemUser_.USER_PHONE=#{userPhone}
+			</if>
+			<if test='userWxOpenid != null and userWxOpenid != ""'>
+				and systemUser_.USER_WX_OPENID=#{userWxOpenid}
+			</if>
+			<if test='userEmail != null and userEmail != ""'>
+				and systemUser_.USER_EMAIL=#{userEmail}
+			</if>
+			<if test='userSex != null and userSex != ""'>
+				and systemUser_.USER_SEX=#{userSex}
+			</if>
+			<if test='pinyin != null and pinyin != ""'>
+				and systemUser_.PINYIN=#{pinyin}
+			</if>
+			<if test='createBy != null and createBy != ""'>
+				and systemUser_.CREATE_BY=#{createBy}
+			</if>
+			<if test='createDate != null and createDate != ""'>
+				and systemUser_.CREATE_DATE=#{createDate}
+			</if>
+			<if test='updateBy != null and updateBy != ""'>
+				and systemUser_.UPDATE_BY=#{updateBy}
+			</if>
+			<if test='updateDate != null and updateDate != ""'>
+				and systemUser_.UPDATE_DATE=#{updateDate}
+			</if>
+			<if test='remarks != null and remarks != ""'>
+				and systemUser_.REMARKS=#{remarks}
+			</if>
+			<if test='bak1 != null and bak1 != ""'>
+				and systemUser_.BAK1=#{bak1}
+			</if>
+			<if test='bak2 != null and bak2 != ""'>
+				and systemUser_.BAK2=#{bak2}
+			</if>
+		</where>
+	</select>
+	
+	<!-- queryPage -->
+	<select id="queryPage" resultMap="ENTITY_RESULT_MAP" parameterType="java.util.HashMap">
+		<include refid="SELECT" />
+		<where>
+			<if test='o.id != null and o.id != ""'>
+				and systemUser_.ID='${o.id}'
+			</if>
+			<if test='o.userName != null and o.userName != ""'>
+				and systemUser_.USER_NAME='${o.userName}'
+			</if>
+			<if test='o.userPwd != null and o.userPwd != ""'>
+				and systemUser_.USER_PWD='${o.userPwd}'
+			</if>
+			<if test='o.userPlainPwd != null and o.userPlainPwd != ""'>
+				and systemUser_.USER_PLAIN_PWD='${o.userPlainPwd}'
+			</if>
+			<if test='o.userPhone != null and o.userPhone != ""'>
+				and systemUser_.USER_PHONE='${o.userPhone}'
+			</if>
+			<if test='o.userWxOpenid != null and o.userWxOpenid != ""'>
+				and systemUser_.USER_WX_OPENID='${o.userWxOpenid}'
+			</if>
+			<if test='o.userEmail != null and o.userEmail != ""'>
+				and systemUser_.USER_EMAIL='${o.userEmail}'
+			</if>
+			<if test='o.userSex != null and o.userSex != ""'>
+				and systemUser_.USER_SEX='${o.userSex}'
+			</if>
+			<if test='o.createBy != null and o.createBy != ""'>
+				and systemUser_.CREATE_BY='${o.createBy}'
+			</if>
+			<if test='o.createDate != null and o.createDate != ""'>
+				and systemUser_.CREATE_DATE='${o.createDate}'
+			</if>
+			<if test='o.updateBy != null and o.updateBy != ""'>
+				and systemUser_.UPDATE_BY='${o.updateBy}'
+			</if>
+			<if test='o.updateDate != null and o.updateDate != ""'>
+				and systemUser_.UPDATE_DATE='${o.updateDate}'
+			</if>
+			<if test='o.delFlag != null and o.delFlag != ""'>
+				and systemUser_.DEL_FLAG='${o.delFlag}'
+			</if>
+			<if test='o.remarks != null and o.remarks != ""'>
+				and systemUser_.REMARKS='${o.remarks}'
+			</if>
+			<if test='o.bak1 != null and o.bak1 != ""'>
+				and systemUser_.BAK1='${o.bak1}'
+			</if>
+			<if test='o.bak2 != null and o.bak2 != ""'>
+				and systemUser_.BAK2='${o.bak2}'
+			</if>
+		</where>
+		<choose>
+			<when test='pager.orderBy == "" or pager.orderBy ==null '>order by systemUser_.CREATE_DATE DESC</when>
+			<when test='pager.orderBy != "" and pager.orderBy !=null '>order by systemUser_.${pager.orderBy}</when>
+		</choose>
+	</select>
+</mapper>
+

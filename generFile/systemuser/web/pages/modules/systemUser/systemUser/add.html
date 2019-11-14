@@ -1,0 +1,128 @@
+<% layout('/layouts/manager_content.html',{title:'systemUser of add ',libs: ['form','validate','select2','siufung']}){ %>
+<div class="main-content">
+	<div class="box box-main">
+		<div class="box-header">
+			<div class="box-title">
+				<i class="fa fa-edit"></i> systemUser of add
+			</div>
+			<div class="box-tools pull-right">
+				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+			</div>
+		</div>
+		<form id="inputForm" action="${ctxPath}/systemUser/systemUser/add" method="post" class="form-horizontal">
+		<div class="box-body">
+			<div class="form-unit">basic info</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userName" name="userName" maxlength="50" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userPwd" name="userPwd" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userPlainPwd" name="userPlainPwd" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userPhone" name="userPhone" maxlength="10" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userWxOpenid" name="userWxOpenid" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userEmail" name="userEmail" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="userSex" name="userSex" maxlength="1" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="pinyin" name="pinyin" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group">
+						<label class="control-label col-sm-3" title="">
+							<span class="required ">*</span> :
+						</label>
+						<div class="col-sm-8">
+							<input type="text" id="remarks" name="remarks" maxlength="255" class="form-control required "/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-footer">
+			<div class="row">
+				<div class="col-sm-offset-2 col-sm-10">
+					<% if(hasPermi('systemUser_systemUser_add')){ %>
+					<button type="submit" class="btn btn-sm btn-primary" id="btnSubmit"><i class="fa fa-check"></i>&nbsp;save</button>&nbsp;
+					<% } %>
+					<a href="javascript:void(0)" class="btn btn-sm btn-default" id="btnCancel" onclick="js.closeCurrentTabPage()"><i class="fa fa-reply-all"></i>&nbsp;close</a>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+<script src="${ctxPath}/modules/systemUser/systemUser/add.js"></script>
+<script type="text/javascript">
+$(function(){
+	//init method
+	systemUserAddForm.init();
+});
+</script>
+<% } %>

@@ -1,0 +1,202 @@
+<% layout('/layouts/manager_content.html',{title:'systemUser of preview ',libs: ['form','validate','select2','siufung']}){ %>
+<div class="main-content">
+	<div class="box box-main">
+		<div class="box-header">
+			<div class="box-title">
+				<i class="fa fa-edit"></i> systemUser of preview
+			</div>
+			<div class="box-tools pull-right">
+				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+			</div>
+		</div>
+		<div class="box-body">
+			<div class="form-unit">basic info</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userName}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userPwd}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userPlainPwd}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userPhone}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userWxOpenid}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userEmail}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.userSex}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.pinyin}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.createBy}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.createDate}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.updateBy}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.updateDate}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.delFlag}
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-group mt5">
+						<label class="col-sm-3" title="">
+							:
+						</label>
+						<div class="col-sm-8">
+							<span>
+								${systemUser.remarks}
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-footer">
+			<div class="row">
+				<div class="col-sm-offset-2 col-sm-10">
+					<a href="javascript:void(0)" class="btn btn-sm btn-default" id="btnCancel" onclick="js.closeCurrentTabPage()"><i class="fa fa-reply-all"></i>&nbsp;close</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>		
+
+<script src="${ctxPath}/modules/systemUser/systemUser/preview.js"></script>
+<script type="text/javascript">
+$(function(){
+	//init method
+	systemUserPreviewForm.init();
+});
+</script>
+<% } %>
