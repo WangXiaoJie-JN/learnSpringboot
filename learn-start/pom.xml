@@ -22,7 +22,7 @@
         <cglib.version>3.1</cglib.version>
         <zookeeper.version>3.4.10</zookeeper.version>
         <curator.version>2.12.0</curator.version>
-        <resteasy.version>3.0.7.Final</resteasy.version>
+        <resteasy.version>4.5.7.Final</resteasy.version>
         <httpclient.version>4.3.6</httpclient.version>
     </properties>
     <dependencies>
